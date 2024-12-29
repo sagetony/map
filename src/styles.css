@@ -1,0 +1,30 @@
+.grid-map-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(100, 20px); /* 100 columns */
+  grid-template-rows: repeat(30, 20px); /* 30 rows */
+  gap: 2px;
+  background-color: #f0f0f0; /* Light gray background for the grid area */
+}
+
+.grid-item {
+  width: 20px; /* Cell width */
+  height: 20px; /* Cell height */
+  position: relative;
+  background-color: #add8e6; /* Light blue background for each cell */
+}
+
+.grid-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-item.empty {
+  background-color: #add8e6; /* Light blue for empty cells */
+}
