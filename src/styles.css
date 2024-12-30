@@ -6,25 +6,38 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(100, 20px); /* 100 columns */
-  grid-template-rows: repeat(30, 20px); /* 30 rows */
-  gap: 2px;
-  background-color: #f0f0f0; /* Light gray background for the grid area */
+  grid-template-columns: repeat(100, 10px); /* Reduce column size */
+  grid-template-rows: repeat(30, 10px); /* Reduce row size */
+  gap: 0; /* No gaps between cells */
+  position: relative;
+  background-color: #f0f0f0;
 }
 
 .grid-item {
-  width: 20px; /* Cell width */
-  height: 20px; /* Cell height */
-  position: relative;
-  background-color: #add8e6; /* Light blue background for each cell */
+  width: 10px;
+  height: 10px;
+  display: flex; /* Center content */
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 0.3px solid white;
+  overflow: hidden; /* Ensures image does not overflow */
 }
 
+.grid-item.land {
+  background-color: #90ee90; /* Optional highlight for land cells */
+}
+
+.grid-item.empty {
+  background-color: #add8e6; /* Blue for empty cells */
+}
 .grid-avatar {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.grid-item.empty {
-  background-color: #add8e6; /* Light blue for empty cells */
-}
+/* .grid-item.large-section {
+  width: 600px;
+  height: 600px; 
+} */
