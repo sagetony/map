@@ -1,22 +1,22 @@
 .grid-map-container {
-  width: 100%;
   height: 100vh;
   overflow: hidden;
+  width: 100%;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(100, 20px); /* 100 columns */
-  grid-template-rows: repeat(30, 20px); /* 30 rows */
+  grid-template-columns: repeat(100, 20px);
+  grid-template-rows: repeat(30, 20px);
   gap: 2px;
-  background-color: #f0f0f0; /* Light gray background for the grid area */
+  background-color: #f0f0f0;
 }
 
 .grid-item {
-  width: 20px; /* Cell width */
-  height: 20px; /* Cell height */
+  width: 20px;
+  height: 20px;
   position: relative;
-  background-color: #add8e6; /* Light blue background for each cell */
+  background-color: #add8e6;
 }
 
 .grid-avatar {
@@ -26,5 +26,5 @@
 }
 
 .grid-item.empty {
-  background-color: #add8e6; /* Light blue for empty cells */
+  background-color: #add8e6;
 }
