@@ -1,0 +1,423 @@
+.grid-map-container {
+  /* height: 100vh; */
+  overflow: hidden;
+  /* width: 100%; */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(16, 36px);
+  grid-template-rows: repeat(5, 51px);
+  gap: 0; /* No gaps between cells */
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+.grid-item {
+  width: 36px;
+  height: 51px;
+  display: flex; /* Center content */
+  align-items: center;
+  justify-content: center;
+  /* box-sizing: border-box; */
+  border: 0.1px solid rgba(255, 255, 255, 0.368);
+  overflow: hidden; /* Ensures image does not overflow */
+}
+
+.grid-item.land {
+  background-color: #90ee90; /* Optional highlight for land cells */
+}
+
+.grid-item.empty {
+  background-color: #add8e6; /* Blue for empty cells */
+}
+
+.grid-item.large-section {
+  /* background: #000; */
+  /* width: 50px; */
+  /* height: 20px; */
+  /* grid-column: span 5; */
+  /* grid-row: span 2; */
+}
+.grid-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .grid-item.large-section {
+  width: 600px;
+  height: 600px; 
+} */
+
+/* New Map 2 */
+.grid-map-container-2 {
+  /* height: 100vh; */
+  overflow: hidden;
+  /* width: 100%; */
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: repeat(5, 125px);
+  grid-template-rows: repeat(1, 126px);
+  gap: 0; /* No gaps between cells */
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+.grid-item-2 {
+  width: 125px;
+  height: 126px;
+  display: flex; /* Center content */
+  align-items: center;
+  justify-content: center;
+  /* box-sizing: border-box; */
+  border: 0.1px solid rgba(255, 255, 255, 0.368);
+  overflow: hidden; /* Ensures image does not overflow */
+}
+
+.grid-item-2.land-2 {
+  background-color: #90ee90; /* Optional highlight for land cells */
+}
+
+.grid-item-2.empty-2 {
+  background-color: #add8e6; /* Blue for empty cells */
+}
+
+.grid-avatar-2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* New Map 3 */
+.grid-map-container-3 {
+  /* height: 100vh; */
+  overflow: hidden;
+  /* width: 100%; */
+}
+
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: repeat(10, 62.5px);
+  grid-template-rows: repeat(1, 126px);
+  gap: 0; /* No gaps between cells */
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+.grid-item-3 {
+  width: 62.5px;
+  height: 126px;
+  display: flex; /* Center content */
+  align-items: center;
+  justify-content: center;
+  /* box-sizing: border-box; */
+  border: 0.1px solid rgba(255, 255, 255, 0.368);
+  overflow: hidden; /* Ensures image does not overflow */
+}
+
+.grid-item-3.land-3 {
+  background-color: #90ee90; /* Optional highlight for land cells */
+}
+
+.grid-item-3.empty-3 {
+  background-color: #add8e6; /* Blue for empty cells */
+}
+
+.grid-avatar-3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* New Map 4 */
+.grid-map-container-4 {
+  /* height: 100vh; */
+  overflow: hidden;
+  /* width: 100%; */
+}
+
+.grid-container-4 {
+  display: grid;
+  grid-template-columns: repeat(1, 500px);
+  grid-template-rows: repeat(1, 255px);
+  gap: 0; /* No gaps between cells */
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+.grid-item-4 {
+  width: 500px;
+  height: 255px;
+  display: flex; /* Center content */
+  align-items: center;
+  justify-content: center;
+  /* box-sizing: border-box; */
+  border: 0.1px solid rgba(255, 255, 255, 0.368);
+  overflow: hidden; /* Ensures image does not overflow */
+}
+
+.grid-item-4.land-4 {
+  background-color: #90ee90; /* Optional highlight for land cells */
+}
+
+.grid-item-4.empty-4 {
+  background-color: #add8e6; /* Blue for empty cells */
+}
+
+.grid-avatar-4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* New Map 5 */
+
+.grid-map-container-5 {
+  /* height: 100vh; */
+  overflow: hidden;
+  /* width: 100%; */
+}
+
+.grid-container-5 {
+  display: grid;
+  grid-template-columns: repeat(24, 36px);
+  grid-template-rows: repeat(10, 30.2px);
+  gap: 0; /* No gaps between cells */
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+.grid-item-5 {
+  width: 36px;
+  height: 30.2px;
+  display: flex; /* Center content */
+  align-items: center;
+  justify-content: center;
+  /* box-sizing: border-box; */
+  border: 0.1px solid rgba(255, 255, 255, 0.368);
+  overflow: hidden; /* Ensures image does not overflow */
+}
+
+.grid-item-5.land-5 {
+  background-color: #90ee90; /* Optional highlight for land cells */
+}
+
+.grid-item-5.empty-5 {
+  background-color: #add8e6; /* Blue for empty cells */
+}
+
+.grid-avatar-5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* New Map 6 */
+.grid-map-container-6 {
+  /* height: 100vh; */
+  overflow: hidden;
+  /* width: 100%; */
+}
+
+.grid-container-6 {
+  display: grid;
+  grid-template-columns: repeat(13, 65px);
+  grid-template-rows: repeat(5, 60px);
+  gap: 0; /* No gaps between cells */
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+.grid-item-6 {
+  width: 65px;
+  height: 60px;
+  display: flex; /* Center content */
+  align-items: center;
+  justify-content: center;
+  /* box-sizing: border-box; */
+  border: 0.1px solid rgba(255, 255, 255, 0.368);
+  overflow: hidden; /* Ensures image does not overflow */
+}
+
+.grid-item-6.land-6 {
+  background-color: #90ee90; /* Optional highlight for land cells */
+}
+
+.grid-item-6.empty-6 {
+  background-color: #add8e6; /* Blue for empty cells */
+}
+
+.grid-avatar-6 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* New Map 7 */
+
+.grid-map-container-7 {
+  /* height: 100vh; */
+  overflow: hidden;
+  /* width: 100%; */
+}
+
+.grid-container-7 {
+  display: grid;
+  grid-template-columns: repeat(30, 36px);
+  grid-template-rows: repeat(10, 30px);
+  gap: 0; /* No gaps between cells */
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+.grid-item-7 {
+  width: 36px;
+  height: 30px;
+  display: flex; /* Center content */
+  align-items: center;
+  justify-content: center;
+  /* box-sizing: border-box; */
+  border: 0.1px solid rgba(255, 255, 255, 0.368);
+  overflow: hidden; /* Ensures image does not overflow */
+}
+
+.grid-item-7.land-7 {
+  background-color: #90ee90; /* Optional highlight for land cells */
+}
+
+.grid-item-7.empty-7 {
+  background-color: #add8e6; /* Blue for empty cells */
+}
+
+.grid-avatar-7 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* New Map 8 */
+
+.grid-map-container-8 {
+  /* height: 100vh; */
+  overflow: hidden;
+  /* width: 100%; */
+}
+
+.grid-container-8 {
+  display: grid;
+  grid-template-columns: repeat(20, 40px);
+  grid-template-rows: repeat(5, 60px);
+  gap: 0; /* No gaps between cells */
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+.grid-item-8 {
+  width: 40px;
+  height: 60px;
+  display: flex; /* Center content */
+  align-items: center;
+  justify-content: center;
+  /* box-sizing: border-box; */
+  border: 0.1px solid rgba(255, 255, 255, 0.368);
+  overflow: hidden; /* Ensures image does not overflow */
+}
+
+.grid-item-8.land-8 {
+  background-color: #90ee90; /* Optional highlight for land cells */
+}
+
+.grid-item-8.empty-8 {
+  background-color: #add8e6; /* Blue for empty cells */
+}
+
+.grid-avatar-8 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* New Map 9 */
+.grid-map-container-9 {
+  /* height: 100vh; */
+  overflow: hidden;
+  /* width: 100%; */
+}
+
+.grid-container-9 {
+  display: grid;
+  grid-template-columns: repeat(90, 10px);
+  grid-template-rows: repeat(30, 10px);
+  gap: 0; /* No gaps between cells */
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+.grid-item-9 {
+  width: 10px;
+  height: 10px;
+  display: flex; /* Center content */
+  align-items: center;
+  justify-content: center;
+  /* box-sizing: border-box; */
+  border: 0.1px solid rgba(255, 255, 255, 0.368);
+  overflow: hidden; /* Ensures image does not overflow */
+}
+
+.grid-item-9.land-9 {
+  background-color: #90ee90; /* Optional highlight for land cells */
+}
+
+.grid-item-9.empty-9 {
+  background-color: #add8e6; /* Blue for empty cells */
+}
+
+.grid-avatar-9 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* New Map 10 */
+.grid-map-container-10 {
+  /* height: 100vh; */
+  overflow: hidden;
+  /* width: 100%; */
+}
+
+.grid-container-10 {
+  display: grid;
+  grid-template-columns: repeat(60, 15px);
+  grid-template-rows: repeat(20, 15px);
+  gap: 0; /* No gaps between cells */
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+.grid-item-10 {
+  width: 15px;
+  height: 15px;
+  display: flex; /* Center content */
+  align-items: center;
+  justify-content: center;
+  /* box-sizing: border-box; */
+  border: 0.1px solid rgba(255, 255, 255, 0.368);
+  overflow: hidden; /* Ensures image does not overflow */
+}
+
+.grid-item-10.land-10 {
+  background-color: #90ee90; /* Optional highlight for land cells */
+}
+
+.grid-item-10.empty-10 {
+  background-color: #add8e6; /* Blue for empty cells */
+}
+
+.grid-avatar-10 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

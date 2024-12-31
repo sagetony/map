@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+
+.first-row {
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.last-row,
+.first-row,
+.last-row-1 {
+  border: 2px solid black;
+}
+
+.first-row-1,
+.first-row-2,
+.second-row,
+.last-row-1,
+.second-row-1,
+.third-row-1 {
+  border-right: 2px solid black;
+}
+
+.first-row-2-1 {
+  border-bottom: 2px solid black;
+}
+
+.second-row-2 {
+  border-bottom: 3px solid black;
+}
+
+.second-row-1,
+.second-row-2,
+.first-row-2-2,
+.last-row-2 {
+  border-top: 2px solid black;
+}
+
+.first-row-1,
+.first-row-2,
+.second-row-2,
+.last-row-2,
+.first-row-3,
+.third-row-2 {
+  border-left: 2px solid black;
+}
+
+.second-row,
+.last-row,
+.third-row {
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: repeat(2, 1fr);
+}
