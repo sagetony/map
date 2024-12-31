@@ -19,8 +19,8 @@ const GridMap = () => {
       .catch((error) => setError('Failed to fetch lands.'));
   }, []);
 
-  const maxRows = 30; // Number of rows
-  const maxColumns = 100; // Number of columns
+  const maxRows = 30;
+  const maxColumns = 100;
 
   // Define exactly 11 sections
   // const sections = [

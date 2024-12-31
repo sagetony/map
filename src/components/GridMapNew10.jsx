@@ -19,8 +19,8 @@ const GridMapNew10 = () => {
       .catch((error) => setError('Failed to fetch lands.'));
   }, []);
 
-  const maxRows = 20; // Number of rows
-  const maxColumns = 60; // Number of columns
+  const maxRows = 20;
+  const maxColumns = 60;
 
   const getGridItem = (land, row, col) => {
     return (
