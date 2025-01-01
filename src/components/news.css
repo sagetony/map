@@ -4,16 +4,16 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(16, 36px);
-  grid-template-rows: repeat(5, 51px);
+  grid-template-columns: repeat(16, 35px);
+  grid-template-rows: repeat(5, 46px);
   gap: 0;
   position: relative;
   background-color: #f0f0f0;
 }
 
 .grid-item {
-  width: 36px;
-  height: 51px;
+  width: 35px;
+  height: 46px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,16 +55,16 @@
 
 .grid-container-2 {
   display: grid;
-  grid-template-columns: repeat(5, 125px);
-  grid-template-rows: repeat(1, 126px);
+  grid-template-columns: repeat(5, 115px);
+  grid-template-rows: repeat(1, 116px);
   gap: 0;
   position: relative;
   background-color: #f0f0f0;
 }
 
 .grid-item-2 {
-  width: 125px;
-  height: 126px;
+  width: 115px;
+  height: 116px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -94,16 +94,16 @@
 
 .grid-container-3 {
   display: grid;
-  grid-template-columns: repeat(10, 62.5px);
-  grid-template-rows: repeat(1, 126px);
+  grid-template-columns: repeat(10, 57.5px);
+  grid-template-rows: repeat(1, 110px);
   gap: 0;
   position: relative;
   background-color: #f0f0f0;
 }
 
 .grid-item-3 {
-  width: 62.5px;
-  height: 126px;
+  width: 57.5px;
+  height: 110px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -133,16 +133,16 @@
 
 .grid-container-4 {
   display: grid;
-  grid-template-columns: repeat(1, 500px);
-  grid-template-rows: repeat(1, 255px);
+  grid-template-columns: repeat(1, 310px);
+  grid-template-rows: repeat(1, 230px);
   gap: 0;
   position: relative;
   background-color: #f0f0f0;
 }
 
 .grid-item-4 {
-  width: 500px;
-  height: 255px;
+  width: 310px;
+  height: 230px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -173,16 +173,16 @@
 
 .grid-container-5 {
   display: grid;
-  grid-template-columns: repeat(24, 36px);
-  grid-template-rows: repeat(10, 30.2px);
+  grid-template-columns: repeat(40, 20px);
+  grid-template-rows: repeat(20, 15px);
   gap: 0;
   position: relative;
   background-color: #f0f0f0;
 }
 
 .grid-item-5 {
-  width: 36px;
-  height: 30.2px;
+  width: 20px;
+  height: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -212,16 +212,16 @@
 
 .grid-container-6 {
   display: grid;
-  grid-template-columns: repeat(13, 65px);
-  grid-template-rows: repeat(5, 60px);
+  grid-template-columns: repeat(13, 40px);
+  grid-template-rows: repeat(5, 30px);
   gap: 0;
   position: relative;
   background-color: #f0f0f0;
 }
 
 .grid-item-6 {
-  width: 65px;
-  height: 60px;
+  width: 40px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -252,20 +252,19 @@
 
 .grid-container-7 {
   display: grid;
-  grid-template-columns: repeat(30, 36px);
-  grid-template-rows: repeat(10, 30px);
+  grid-template-columns: repeat(80, 10px);
+  grid-template-rows: repeat(50, 10px);
   gap: 0;
   position: relative;
   background-color: #f0f0f0;
 }
 
 .grid-item-7 {
-  width: 36px;
-  height: 30px;
+  width: 10px;
+  height: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-
   border: 0.1px solid rgba(255, 255, 255, 0.368);
   overflow: hidden;
 }
@@ -292,16 +291,16 @@
 
 .grid-container-8 {
   display: grid;
-  grid-template-columns: repeat(20, 40px);
-  grid-template-rows: repeat(5, 60px);
+  grid-template-columns: repeat(80, 8px);
+  grid-template-rows: repeat(70, 8px);
   gap: 0;
   position: relative;
   background-color: #f0f0f0;
 }
 
 .grid-item-8 {
-  width: 40px;
-  height: 60px;
+  width: 8px;
+  height: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -397,6 +396,45 @@
 }
 
 .grid-avatar-10 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* New Map 11 */
+.grid-map-container-11 {
+  overflow: hidden;
+}
+
+.grid-container-11 {
+  display: grid;
+  grid-template-columns: repeat(10, 15px);
+  grid-template-rows: repeat(5, 15px);
+  gap: 0;
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+.grid-item-11 {
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 0.1px solid rgba(255, 255, 255, 0.368);
+  overflow: hidden;
+}
+
+.grid-item-11.land-11 {
+  background-color: #90ee90;
+}
+
+.grid-item-11.empty-11 {
+  background-color: #add8e6;
+}
+
+.grid-avatar-11 {
   width: 100%;
   height: 100%;
   object-fit: cover;

@@ -58,7 +58,9 @@
 .third-row-1 {
   border-right: 2px solid black;
 }
-
+.third-row-1 {
+  border-top: 3px solid black;
+}
 .first-row-2-1 {
   border-bottom: 2px solid black;
 }
